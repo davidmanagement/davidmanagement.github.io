@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f4ef"/>
+  <rect width="1200" height="8" fill="#3d4f3a"/>
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#d9d2c5" stroke-width="2"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#1a1a1a">The Humility Code</text>
+  <rect x="540" y="310" width="120" height="3" fill="#3d4f3a"/>
+  <text x="600" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#5a564e">For Builders of Artificial Intelligence</text>
+  <text x="600" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#3d4f3a">davidmanagement.github.io/humility-code</text>
+</svg>

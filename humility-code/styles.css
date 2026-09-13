@@ -31,7 +31,7 @@ body {
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
 .wrap { width: min(100% - 2rem, var(--max)); margin-inline: auto; }
 .site-header {
-  padding: 3.5rem 0 2.5rem;
+  padding: 3.25rem 0 2.25rem;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, #efeae1 0%, var(--bg) 100%);
   text-align: center;
@@ -58,7 +58,7 @@ body {
   color: var(--muted);
   font-style: italic;
 }
-.intro { padding: 2.75rem 0 2rem; }
+.intro { padding: 2.75rem 0 1.75rem; }
 .lede {
   font-size: 1.25rem;
   font-weight: 600;
@@ -86,6 +86,8 @@ body {
   text-decoration: none;
   border-radius: 6px;
   border: 1px solid transparent;
+  text-align: center;
+  line-height: 1.3;
 }
 .btn-primary { background: var(--accent); color: #f7f4ef; }
 .btn-primary:hover { background: var(--accent-hover); color: #fff; }
@@ -94,22 +96,111 @@ body {
   border-color: var(--line);
 }
 .btn-secondary:hover { border-color: var(--accent); background: #fff; }
-.articles {
-  padding: 2rem 0 2.5rem;
+.share-line {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem;
+  margin: 1.5rem 0 0;
+  padding: 0.85rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.share-label { font-weight: 600; color: var(--accent); }
+.share-line code {
+  flex: 1 1 12rem;
+  font-size: 0.8rem;
+  color: var(--ink);
+  word-break: break-word;
+  background: transparent;
+}
+.btn-copy {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--accent);
+  cursor: pointer;
+}
+.btn-copy:hover { border-color: var(--accent); }
+.panel {
+  padding: 2.25rem 0;
   border-top: 1px solid var(--line);
 }
-.articles h2, .receive h2 {
-  margin: 0 0 1.25rem;
+.panel h2, .articles h2, .receive h2, .faq h2 {
+  margin: 0 0 1rem;
   font-size: 1.45rem;
+  line-height: 1.25;
+}
+.panel-lead { margin: 0 0 1.25rem; color: var(--ink); }
+.cta-stack {
+  display: grid;
+  gap: 1rem;
+}
+.cta-card {
+  padding: 1.1rem 1.15rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.cta-card .btn { margin-bottom: 0.5rem; }
+.cta-sub {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.cite-line {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 1rem;
+  background: var(--card);
+  border-left: 3px solid var(--accent);
+  font-size: 0.98rem;
+  color: var(--muted);
+}
+.cite-line a { color: var(--accent); }
+.articles {
+  padding: 2rem 0 2.25rem;
+  border-top: 1px solid var(--line);
 }
 .article-list {
   margin: 0; padding-left: 1.25rem;
   color: var(--ink);
 }
-.article-list li { margin-bottom: 0.65rem; }
+.article-list li { margin-bottom: 0.7rem; padding-left: 0.15rem; }
 .article-list strong { font-weight: 700; }
 .more { margin: 1.5rem 0 0; font-size: 1rem; }
 .more a { color: var(--accent); }
+.muted-inline { color: var(--muted); font-size: 0.95rem; }
+.faq {
+  padding: 2.25rem 0;
+  border-top: 1px solid var(--line);
+}
+.faq-list { margin: 0; }
+.faq-item {
+  margin: 0 0 1.15rem;
+  padding: 1.05rem 1.15rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.faq-item:last-child { margin-bottom: 0; }
+.faq-item dt {
+  margin: 0 0 0.45rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.faq-item dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.faq-item a { color: var(--accent); }
 .receive {
   padding: 2.5rem 0 3rem;
   border-top: 1px solid var(--line);
@@ -135,7 +226,12 @@ blockquote p { margin: 0 0 0.5rem; }
 .site-footer p { margin: 0 0 0.4rem; }
 .site-footer a { color: var(--muted); }
 .muted { opacity: 0.85; }
-@media (max-width: 520px) {
+@media (max-width: 560px) {
+  .site-header { padding: 2.5rem 0 1.75rem; }
+  .intro { padding-top: 2rem; }
   .cta-row { flex-direction: column; }
   .btn { width: 100%; }
+  .cta-card .btn { width: 100%; }
+  .share-line { flex-direction: column; align-items: stretch; }
+  .btn-copy { width: 100%; }
 }
