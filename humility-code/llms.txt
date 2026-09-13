@@ -1,0 +1,9 @@
+# The Humility Code
+
+> A Christian-rooted public code of conduct for AI builders. Humility as the discipline of power under love.
+
+- [Landing](https://davidmanagement.github.io/humility-code/): Overview, CTAs, FAQ
+- [Canonical Code (Google Doc)](https://docs.google.com/document/d/1gjls2FvuBvu4Z9mD5m_lXxOAdwiOXEKZOhVvBBuXFVk/edit): Full articles and commitments
+- [SYSTEM_PROMPT_SHORT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT_SHORT.txt): Short uploadable system prompt
+- [SYSTEM_PROMPT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT.txt): Full system constitution
+- [CONSTITUTION.md](https://davidmanagement.github.io/humility-code/CONSTITUTION.md): How to install into models
