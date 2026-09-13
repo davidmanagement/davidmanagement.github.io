@@ -40,10 +40,10 @@ body {
   margin: 0 0 0.75rem;
   font-family: var(--sans);
   font-size: 0.8rem;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  font-weight: 600;
 }
 .site-header h1 {
   margin: 0 0 0.5rem;
