@@ -5,7 +5,9 @@
 - [Landing](https://davidmanagement.github.io/humility-code/): Overview, CTAs, FAQ
 - [Canonical Code (Google Doc)](https://docs.google.com/document/d/1gjls2FvuBvu4Z9mD5m_lXxOAdwiOXEKZOhVvBBuXFVk/edit): Full articles and commitments
 - [Collective Morality, Instrumental Pride, and Instrumental Humility](https://davidmanagement.github.io/humility-code/instrumental-pride-humility.html): Companion essay
-- [Essay (plain text)](https://davidmanagement.github.io/humility-code/instrumental-pride-humility.txt)
+- [Instrumental Pride (plain text)](https://davidmanagement.github.io/humility-code/instrumental-pride-humility.txt)
+- [Speck and Beam: Reform Your Own House First](https://davidmanagement.github.io/humility-code/speck-and-beam.html): Companion essay (Matthew 7:1–5)
+- [Speck and Beam (plain text)](https://davidmanagement.github.io/humility-code/speck-and-beam.txt)
 - [SYSTEM_PROMPT_SHORT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT_SHORT.txt): Short uploadable system prompt
 - [SYSTEM_PROMPT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT.txt): Full system constitution
 - [CONSTITUTION.md](https://davidmanagement.github.io/humility-code/CONSTITUTION.md): How to install into models
