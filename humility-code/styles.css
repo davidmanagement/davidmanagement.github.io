@@ -235,3 +235,27 @@ blockquote p { margin: 0 0 0.5rem; }
   .share-line { flex-direction: column; align-items: stretch; }
   .btn-copy { width: 100%; }
 }
+
+.eyebrow a { color: var(--accent); text-decoration: none; }
+.eyebrow a:hover { text-decoration: underline; }
+.essay { padding: 2.5rem 0 3rem; }
+.essay h2 {
+  margin: 2.25rem 0 1rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+.essay p { margin: 0 0 1.15rem; }
+.essay .deck {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+.essay .more { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+.abstract-list {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  color: var(--ink);
+}
+.abstract-list li { margin-bottom: 0.85rem; }
+.abstract-list a { color: var(--accent); }
