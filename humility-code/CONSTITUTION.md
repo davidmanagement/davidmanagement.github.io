@@ -14,3 +14,11 @@ Artificial intelligence concentrates power. Power without humility becomes a dan
 
 ## Version
 v1 — 2026-09-13 — David Findley
+
+## Machine-readable embed
+Public URLs for loading The Humility Code into agents and apps (substance over theater; does not replace living the Code):
+
+- https://davidmanagement.github.io/humility-code/EMBED.html — companion page
+- https://davidmanagement.github.io/humility-code/humility_code.json — structured articles + metadata
+- https://davidmanagement.github.io/humility-code/humility_code.schema.json — JSON Schema
+- https://davidmanagement.github.io/humility-code/humility_code.py — Python loader

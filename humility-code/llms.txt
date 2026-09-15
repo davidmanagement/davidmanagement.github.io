@@ -8,6 +8,10 @@
 - [Instrumental Pride (plain text)](https://davidmanagement.github.io/humility-code/instrumental-pride-humility.txt)
 - [Speck and Beam: Reform Your Own House First](https://davidmanagement.github.io/humility-code/speck-and-beam.html): Companion essay (Matthew 7:1–5)
 - [Speck and Beam (plain text)](https://davidmanagement.github.io/humility-code/speck-and-beam.txt)
+- [Embed The Humility Code (JSON / Python)](https://davidmanagement.github.io/humility-code/EMBED.html): Machine-readable embed companion
+- [humility_code.json](https://davidmanagement.github.io/humility-code/humility_code.json): Structured articles + metadata
+- [humility_code.schema.json](https://davidmanagement.github.io/humility-code/humility_code.schema.json): JSON Schema
+- [humility_code.py](https://davidmanagement.github.io/humility-code/humility_code.py): Python loader
 - [SYSTEM_PROMPT_SHORT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT_SHORT.txt): Short uploadable system prompt
 - [SYSTEM_PROMPT.txt](https://davidmanagement.github.io/humility-code/SYSTEM_PROMPT.txt): Full system constitution
 - [CONSTITUTION.md](https://davidmanagement.github.io/humility-code/CONSTITUTION.md): How to install into models

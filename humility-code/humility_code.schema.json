@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://davidmanagement.github.io/humility-code/humility_code.schema.json",
+  "title": "The Humility Code",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "version",
+    "canonical_url",
+    "articles"
+  ],
+  "properties": {
+    "id": {
+      "const": "humility-code"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "title",
+          "rule"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 14
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
