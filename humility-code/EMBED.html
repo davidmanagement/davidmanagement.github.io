@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Embed The Humility Code (JSON / Python) — The Humility Code</title>
+  <meta name="description" content="Machine-readable embed pack for The Humility Code: JSON articles, JSON Schema, and Python loader. Substance over theater — restraint installable for agents and apps.">
+  <link rel="canonical" href="https://davidmanagement.github.io/humility-code/EMBED.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://davidmanagement.github.io/humility-code/EMBED.html">
+  <meta property="og:title" content="Embed The Humility Code (JSON / Python)">
+  <meta property="og:description" content="Machine-readable pack: humility_code.json, schema, and Python loader. Makes restraint installable — does not replace living the Code.">
+  <meta property="og:image" content="https://davidmanagement.github.io/humility-code/og.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/svg+xml">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Embed The Humility Code (JSON / Python)">
+  <meta name="twitter:description" content="Machine-readable pack: JSON, schema, and Python loader. Substance over theater.">
+  <meta name="twitter:image" content="https://davidmanagement.github.io/humility-code/og.svg">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Embed The Humility Code (JSON / Python)",
+  "url": "https://davidmanagement.github.io/humility-code/EMBED.html",
+  "description": "Machine-readable embed pack for The Humility Code: JSON articles, JSON Schema, and Python loader.",
+  "isPartOf": {
+    "@type": "WebPage",
+    "name": "The Humility Code",
+    "url": "https://davidmanagement.github.io/humility-code/"
+  },
+  "inLanguage": "en"
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow"><a href="./">The Humility Code</a> · Machine-readable embed</p>
+      <h1>Embed The Humility Code (JSON / Python)</h1>
+      <p class="subtitle">Substance over theater — living obligation, installable for agents and apps</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="essay wrap">
+      <p class="deck">Public machine-readable pack so builders can load the Code into agents without copy-paste drift. Cite the canonical page when you ship or teach it.</p>
+      <p>This pack does not replace living the Code. It makes restraint <strong>installable</strong>: same fourteen articles, same canonical URL, fewer excuses for “we couldn’t embed it.” Prefer obligation over branding. Canonical: <a href="https://davidmanagement.github.io/humility-code/" rel="noopener noreferrer">https://davidmanagement.github.io/humility-code/</a>.</p>
+
+      <h2>Files</h2>
+      <ul class="abstract-list">
+        <li><a href="humility_code.json"><code>humility_code.json</code></a> — structured articles + metadata for RAG / policy packs</li>
+        <li><a href="humility_code.schema.json"><code>humility_code.schema.json</code></a> — JSON Schema for validation</li>
+        <li><a href="humility_code.py"><code>humility_code.py</code></a> — Python loader (<code>system_prompt</code>, OpenAI messages, Ollama Modelfile, heuristic lint)</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="humility_code.json">humility_code.json</a>
+        <a class="btn btn-secondary" href="humility_code.schema.json">Schema</a>
+        <a class="btn btn-secondary" href="humility_code.py">Python loader</a>
+      </div>
+
+      <h2>Quick start</h2>
+      <pre><code># Print short system prompt (fetches live SHORT if online; else JSON digest)
+python3 humility_code.py --style short
+
+# JSON digest (offline-friendly from humility_code.json)
+python3 humility_code.py --style json_digest
+
+# Ollama Modelfile SYSTEM block
+python3 humility_code.py --modelfile
+
+# Article checklist
+python3 humility_code.py --checklist</code></pre>
+      <p>Python API:</p>
+      <pre><code>from humility_code import HumilityCode
+hc = HumilityCode.load()  # or HumilityCode.load(fetch=True)
+msgs = hc.as_openai_messages("Help me ship safely.")</code></pre>
+
+      <h2>Impact note</h2>
+      <p>Install the pack so agents and apps can cite the same articles. Still receive the Code as a living obligation—not a logo. If you embed it, embed it to practice it.</p>
+      <p class="more"><a href="./">← Back to The Humility Code</a> · <a href="CONSTITUTION.md">How to install</a> · <a href="SYSTEM_PROMPT_SHORT.txt">Short system prompt</a></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Companion to <a href="./">The Humility Code</a>. Free public witness — not branding theater.</p>
+      <p class="muted"><a href="https://davidmanagement.github.io/">davidmanagement.github.io</a></p>
+    </div>
+  </footer>
+</body>
+</html>
