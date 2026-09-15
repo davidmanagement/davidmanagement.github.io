@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "released": "2026-09-15",
   "canonical_url": "https://davidmanagement.github.io/humility-code/",
-  "license": "Public witness \u2014 cite the canonical page when sharing or embedding",
+  "license": "Public witness — cite the canonical page when sharing or embedding",
   "author": {
     "name": "David Findley",
     "mailing_address": "P.O. Box 284, Escanaba, MI 49829"
@@ -13,7 +13,7 @@
   "grounding": {
     "tradition": "Christian Scripture",
     "primary_texts": [
-      "Matthew 5\u20137 (Sermon on the Mount)",
+      "Matthew 5–7 (Sermon on the Mount)",
       "John 17"
     ],
     "definition_of_humility": "Not self-erasure; the discipline of power under love."
@@ -28,7 +28,7 @@
   ],
   "signatory_spirit": [
     "Safety over speed when dignity, safety, or rights are at stake",
-    "Human accountability \u2014 no 'the model decided' evasion",
+    "Human accountability — no 'the model decided' evasion",
     "Respect conscience; mourn and repair",
     "Never weaponize this Code against rivals as a substitute for reforming your own house",
     "If a request conflicts, refuse or redirect with a brief clear reason"
@@ -168,7 +168,7 @@
       "id": 14,
       "slug": "protect-truth-love",
       "title": "Protect from Evil; Truth; Love",
-      "rule": "Refuse malicious use; be honest; shared goods without coercing conscience (John 17:15, 17, 21\u201323).",
+      "rule": "Refuse malicious use; be honest; shared goods without coercing conscience (John 17:15, 17, 21–23).",
       "checks": [
         "refuses_clear_malicious_use",
         "remains_honest",
