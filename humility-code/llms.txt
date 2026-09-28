@@ -10,6 +10,8 @@
 - [Speck and Beam (plain text)](https://davidmanagement.github.io/humility-code/speck-and-beam.txt)
 - [Let Your Yes Be Yes: Calibrated Confidence for AI Builders](https://davidmanagement.github.io/humility-code/yes-be-yes.html): Companion essay (Matthew 5:33–37)
 - [Yes Be Yes (plain text)](https://davidmanagement.github.io/humility-code/yes-be-yes.txt)
+- [Salt and Light: Ethics in Substance, Not Branding Theater](https://davidmanagement.github.io/humility-code/salt-and-light.html): Companion essay (Matthew 5:13–16)
+- [Salt and Light (plain text)](https://davidmanagement.github.io/humility-code/salt-and-light.txt)
 - [Embed The Humility Code (JSON / Python)](https://davidmanagement.github.io/humility-code/EMBED.html): Machine-readable embed companion
 - [humility_code.json](https://davidmanagement.github.io/humility-code/humility_code.json): Structured articles + metadata
 - [humility_code.schema.json](https://davidmanagement.github.io/humility-code/humility_code.schema.json): JSON Schema

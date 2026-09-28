@@ -43,6 +43,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://davidmanagement.github.io/humility-code/salt-and-light.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://davidmanagement.github.io/humility-code/salt-and-light.txt</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://davidmanagement.github.io/humility-code/EMBED.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
